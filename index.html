@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="photo.jpg" />
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css "/>
+	
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+   <a class="navbar-brand logo" href="#"><h2>Contact Form</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item ">
+        <a class="nav-link  btn-lg " href="#">About Me <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link btn-lg" href="#">Qualification</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link btn-lg" href="#">Skills</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link active btn-lg" href="#">Contact Me</a>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+ <br> 
+ 
+<body class="bg-dark">
+ <div class="container text-white">
+ <h1 class="h1-responsive font-weight-bold text-center my-4">CONTACT FORM</h1>
+
+		<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Can We Collaborate..??? </p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-12 col-sm-9 ">
+            <form action="/contact" method="post" >
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+						<label for="name" class="">Your name</label>
+                            <input type="text" id="name" required="required" name="name" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+						<label for="email" class="">Your email</label>
+                            <input type="text" id="email" required="required" name="email" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+						<label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" required="required" name="subject" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+						<label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" required="required" rows="2" class="form-control md-textarea"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+	<br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn-lg btn-success btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+            </form>
+
+  
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-12 col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>India, Asia.</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p><a href="tel:9998887770">+91 9998887770</a></p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p><a href="#">Contact Form</a></p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+                   		
+       </div>
+   
+
+<br>
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4 bg-white">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Contact Form.
+    
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ 
+ 	
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+	<script src="https://use.fontawesome.com/ee1c3da296.js"></script>
+</html>
