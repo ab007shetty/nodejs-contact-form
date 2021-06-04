@@ -35,15 +35,15 @@ app.post('/contact', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-    user: "username@gmail.com", // Sender email username
-    pass: "password", // Sender email password, not the normal one.
+    user: "eclassroom1999@gmail.com", // Sender email username
+    pass: "pjlgdzmacjjibryd", // Sender email password, not the normal one.
     }
   })
 
   // Specify what the email will look like
   const mailOpts = {
-    from: '"Contact Form" <username@gmail.com>', //Sender mail
-    to: "username@gmail.com",					// Recever mail
+    from: '"Contact Form" <eclassroom1999@gmail.com>', //Sender mail
+    to: "ab007shetty@gmail.com",					// Recever mail
 	subject: `${req.body.name}`,
     html: output
   }
