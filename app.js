@@ -36,7 +36,7 @@ app.post('/contact', (req, res) => {
     secure: true,
     auth: {
     user: "eclassroom1999@gmail.com", // Sender email username
-    pass: "mloquiqighoyiytq", // Sender email password, not the normal one.
+    pass: "ixymebsjtypcuxrw", // Sender email password, not the normal one.
     }
   })
 
